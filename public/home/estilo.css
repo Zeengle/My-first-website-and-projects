@@ -1,0 +1,43 @@
+div {
+    text-align: center;
+
+  }
+
+body{
+    color: white;
+    background-color: rgb(49, 49, 49);
+
+}
+
+a {
+    color: blue;
+}
+
+
+.img-aumentar:hover img {
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+.img-aumentar {
+    text-align: justify;
+}
+
+#favoritos {
+    background-color: black;
+    font-weight: bold;
+}
+
+.final {
+    text-align: center;
+    font-size:large;
+}
+
+li {
+    font-size: large ;
+
+}
+
+p {
+    font-size: large;
+}

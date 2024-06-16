@@ -1,0 +1,42 @@
+body {
+ 
+    background-color: cadetblue
+}
+
+#titulo {
+    color: aliceblue;
+    display: flex;
+    justify-content: center ;
+
+}
+
+#adivinhar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+#resultados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#resultado {
+    color: aliceblue;
+    font-size: larger;
+}
+
+#tentativas_pequenas{
+    background-color: lightgray;
+}
+
+#tentativas_grandes{
+    background-color: lightgray;
+}

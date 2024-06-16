@@ -1,0 +1,14 @@
+body{
+    background-color: cadetblue;;
+}
+
+#canvas {
+    background-color: white
+
+}
+
+#centralizar{
+    display: flex;
+    justify-content: center;
+    padding: 5cm;
+}

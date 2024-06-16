@@ -1,0 +1,51 @@
+body {
+    background-color: lightcyan;
+}
+
+h1 {
+
+    display: flex;
+    justify-content: center;
+}
+
+#textin{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    
+}
+
+#paginin {
+    margin: 3.5cm;
+    margin-top: 1.5cm
+}
+
+#imagem{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: -4cm;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -40px;
+    margin-top: -15px
+}
+
+#botao{
+    margin-right: -1cm;
+    padding: 10px
+}
+
+#fundo{
+    background-color: white;
+    border: 1px solid black; 
+    align-items: center;
+    margin-left: 20cm;
+    margin-right: 17cm;
+    margin-top: 2.5cm;
+    padding-block-end: 2cm;
+}

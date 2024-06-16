@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+</head>
+<body>
+    <h1>FortniteProPlayersBlog</h1>
+    <form action="criarblog" method="post">
+        <input type="submit" value="Criar Blog">
+    </form>
+    <br>
+    <% for (let i = 0; i < posted.length; i++) { %>
+        <div id="post">
+            <h2><%= posted[i].db_titulo %></h2>
+            <h4><%= posted[i].db_resumo %></h4>
+            <p><%= posted[i].db_conteudo %></p>
+        </div>
+    <% } %> 
+
+    <style>
+        body{
+        background-color: lightgray;
+        }
+
+        h1{
+        display: flex;
+        justify-content: center;
+        }
+        form{
+        display: flex;
+        justify-content: center;
+        }
+        #post{
+        display: flexbox;
+        width: 50%;
+        margin-bottom: 50px;
+        margin-left: 25%;
+        padding: 20px;
+        height: 50;
+        border: 2px black solid;
+        border-radius: 15px;
+        background-color: lightblue;
+    }
+    </style>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body {
+    color: white;
+    background-color: rgb(49, 49, 49);
+    background-image: url("fundo\ project.webp");
+}
+
+a {
+    color: blue;
+}
+
+div {
+    text-align: center;
+}
+
+
+.tabela{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+td {
+    border-style:double;
+    border-color: aliceblue;
+}
+

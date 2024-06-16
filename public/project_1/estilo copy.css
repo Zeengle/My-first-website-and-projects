@@ -1,0 +1,184 @@
+html {
+    background-color: lightgray;
+}
+
+
+#C {
+    height: 4cm;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+
+#Java {
+    height: 4cm;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+
+.cabeca {
+    background-color:  bisque;
+    border: solid 3px blue;
+    text-align: center;
+    box-sizing: border-box;
+    width: auto;
+    padding: 50px;
+}
+
+
+h1 {
+    color: darkgreen;
+}
+
+
+.links {
+    text-align: center;
+    background-color: lightskyblue;
+    padding: 20px;
+    color: darkred;
+    font-weight: bold
+}
+
+.topo {
+    margin-left: 70px;
+    margin-right: 80px;
+    color: darkred;
+    
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+.paragrafo {
+    text-align: center;
+   color: indigo;
+    font-size: 20pt
+}
+
+#bookA {
+    width: 6cm;
+    height: 8.6cm;
+    display: inline;
+    margin-left: 50px;
+    align-items: center;
+}
+
+#bookC {
+    width: 7cm;
+    display: inline;
+    margin-left: 50px;
+    align-items: center;
+}
+
+#bookJ {
+    width: 6cm;
+    display: inline;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.books {
+    text-align:center;
+
+}
+
+iframe {
+    width: 10cm;
+    height: 10cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+
+.videos {
+    text-align: center;
+
+}
+
+table {
+    border: 5px dashed;
+    color: red;
+
+}
+
+td{
+    color: black;
+    border-color: red;
+    padding: 9px;
+
+
+}
+
+.info {
+    color: red;
+    font-weight: bold;
+}
+
+.tabela {
+    text-align: center;
+    justify-content: space-around;
+    vertical-align: top;
+    display: flex;
+
+}
+
+.amarelin {
+    background-color: yellow;
+    width: 15cm;
+    height: 3cm;
+}
+
+a {
+    margin-left: 50px;
+    text-decoration:none;
+    color: darkred;
+    font-weight: bold;
+}
+
+.caixa { 
+    display: flex; 
+    justify-content: center;
+    padding: 1cm;
+}
+
+footer {
+    background-color:  bisque;
+    text-align: center;
+    width: auto;
+    padding: 30px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#html {
+    height: 3cm;
+    position: relative;
+    bottom: 25px;
+    float: left;
+}
+
+#css {
+    height: 3cm;
+    position: relative;
+    bottom: 25px;
+    float: right;
+}
+
+#final {
+    font-size: 15pt;
+    font-family: "Comic Sans MS";
+}
+
+#pcaixa {
+    text-align: justify;
+}
+
+
